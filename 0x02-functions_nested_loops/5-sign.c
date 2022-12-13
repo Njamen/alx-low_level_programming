@@ -3,7 +3,7 @@
 
 /**
  * print_sign - check is a randomly given number is positive or negativ
- * @c: given char
+ * @n: given char
  *
  * Return: 0
  */
