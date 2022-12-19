@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 
 	if (n == 0)
 	{
-		printf("\n");
+		printf(" \n");
 		return;
 	}
 	else if (n < 0)
