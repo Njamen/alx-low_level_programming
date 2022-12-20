@@ -12,18 +12,18 @@ int main(void)
 	long n_0 = 1;
 	long n_1 = 2;
 	long n = n_1;
+	long sum = 2;
 
-	printf("%ld", n_1);
 	while (n <= 4000000)
 	{
 		n = n_0 + n_1;
 		if ((n % 2) == 0)
 		{
-			printf(", %ld", n);
+			sum = sum + n;
 		}
 		n_0 = n_1;
 		n_1 = n;
 	}
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
