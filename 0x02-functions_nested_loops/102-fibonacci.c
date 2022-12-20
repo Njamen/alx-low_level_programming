@@ -14,7 +14,6 @@ int main(void)
 	int i = 3;
 	long n;
 
-	
 	printf("%ld, ", n_0);
 	printf("%ld", n_1);
 	while (i <= 50)
