@@ -19,7 +19,7 @@ int main(void)
 	while (i <= 98)
 	{
 		n = n_0 + n_1;
-		printf(", %.0f", n);
+		printf(", %ld", (unsigned long)n);
 		n_0 = n_1;
 		n_1 = n;
 		i = i + 1;
