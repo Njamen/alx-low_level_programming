@@ -9,11 +9,13 @@
  */
 int main(void)
 {
-	long n_0 = 0;
-	long n_1 = 1;
-	int i = 2;
+	long n_0 = 1;
+	long n_1 = 2;
+	int i = 3;
 	long n;
 
+	
+	printf("%ld, ", n_0);
 	printf("%ld", n_1);
 	while (i <= 50)
 	{
