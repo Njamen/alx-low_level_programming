@@ -4,7 +4,6 @@
 /**
  * string_toupper - check is a randomly given number is positive or negativ
  * @a: given char
- * @n: sss
  *
  * Return: 0
  */
@@ -15,7 +14,7 @@ char *string_toupper(char *a)
 	char c;
 
 	if (*(a + i) == '\0')
-		return a;
+		return (a);
 	while (*(a + i) != '\0')
 	{
 		c = *(a + i);
