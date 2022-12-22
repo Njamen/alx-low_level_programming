@@ -2,27 +2,29 @@
 /* more headers goes there */
 
 /**
- * reverse_array - check is a randomly given number is positive or negativ
+ * string_toupper - check is a randomly given number is positive or negativ
  * @a: given char
  * @n: sss
  *
  * Return: 0
  */
-void reverse_array(int *a, int n)
+
+char *string_toupper(char *a)
 {
 	int i = 0;
-	int j = n;
-	int c;
+	char c;
 
-	if (n <= 0)
-		return;
-	j = j - 1;
-	while (i <= j)
+	if (*(a + i) == '\0')
+		return a;
+	while (*(a + i) != '\0')
 	{
 		c = *(a + i);
-		*(a + i) = *(a + j);
-		*(a + j) = c;
+		if (c >= 97 && c <= 122)
+		{
+			c = c - 32;
+			*(a + i) = c;
+		}
 		i = i + 1;
-		j = j - 1;
 	}
+	return (a);
 }
