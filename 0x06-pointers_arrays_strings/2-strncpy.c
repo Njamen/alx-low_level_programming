@@ -17,7 +17,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	if (*src == '\0')
 	{
-		*(dest) = '\0';  
 		return (dest);
 	}
 	else if (n <= 0)
