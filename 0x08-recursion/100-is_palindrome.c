@@ -8,14 +8,6 @@
  * Return: 0
  */
 
-/**
- * palindrome - ss
- * @s: dd
- * @e: ddss
- *
- * Return: 0
- */
-
 int is_palindrome(char *s)
 {
 	int n = _strlen_recursion(s);
@@ -25,6 +17,14 @@ int is_palindrome(char *s)
 	else
 		return (palindrome(s, (s + n - 1)));
 }
+
+/**
+ * palindrome - dd
+ * @s: f
+ * @e :e
+ *
+ * Return: 0
+ */
 
 int palindrome(char *s, char *e)
 {
@@ -36,6 +36,12 @@ int palindrome(char *s, char *e)
 		return (0);
 }
 
+/**
+ * _strlen_recursion - g
+ * @s: t
+ *
+ * Return: 0
+ */
 
 int _strlen_recursion(char *s)
 {
