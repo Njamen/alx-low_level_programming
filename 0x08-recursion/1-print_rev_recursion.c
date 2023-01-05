@@ -2,20 +2,16 @@
 /* more headers goes there */
 
 /**
- * _puts_recursion   - check is a randov
+ * _print_rev_recursion   - eheck is a randov
  * @s: given char
  *
  * Return: 0
  */
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s != '\0')
 	{
+		_print_rev_recursion(s + 1);
 		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
-	else
-	{
-		_putchar('\n');
 	}
 }

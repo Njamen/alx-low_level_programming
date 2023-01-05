@@ -1,0 +1,32 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".0-puts_recursion.c.swp"
+[10Cowned by: root   dated: Wed Jan 04 14:43:15 2023
+[9Cfile name: ~root/alx-low_level_programming/0x08-recursion/0-puts_recursion.c
+[10Cmodified: YES
+[9Cuser name: root   host name: 3c1ddb3ee953
+[8Cprocess ID: 56 (STILL RUNNING)
+While opening file "0-puts_recursion.c"
+[13Cdated: Wed Jan 04 15:40:08 2023
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r 0-puts_recursion.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".0-puts_recursion.c.swp"
+    to avoid this message.
+
+[32mSwap file ".0-puts_recursion.c.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[29;1H[K[29;1H
+[?25l[28;1H"0-puts_recursion.c" 21L, 261C
+[32mPress ENTER or type command to continue[?25h[m[1;1H[L[?25l[1;1H[35m#include [m[31m"main.h"[m
+[34m/* more headers goes there */
+
+/**
+ * _puts_recursion   - check is a randov
+ * @s: given char
+ *
+ * Return: [m[31m0[m[8;13H[K[9;1H[34m */[m[9;4H[K[10;1H[32mvoid[m _puts_recursion([32mchar[m *s)[10;30H[K[11;1H{[11;10H[K[12;9H[33mif[m (*s != [35m'\0'[m)[13;9H{[13;10H[K[14;9H        _putchar(*s);[14;31H[K[15;1H                _puts_recursion(s + [31m1[m);[16;9H}[16;14H[K[17;7H  [33melse[m[17;13H[K[18;9H{
+                _putchar([35m'\n'[m);[19;32H[K[20;5H    }[20;10H[K[21;1H}[21;5H[K[22;1H[1m[34m~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [m[29;1H[K[29;82H5,18[10CAll[5;18H[?25h[?25l[29;72Hq[5;18H[?25h[?25l[29;73Hs[5;18H[29;1H[1mrecording @s[m[29;72H[K[29;82H5,18[10CAll[5;18H[?25h[?25l[29;72Hs[5;18H[29;72H [5;18H[29;72Hcl[5;18H[29;72H  [5;18H[29;1H[1m--c INSERT --[m [1mrecording @s[m[29;82H[K[29;82H5,18[10CAll[5;18H[34m   - check is a randov[m[5;40H[K[5;18H[?25h[29;1H[1mrecording @sr[m[29;13H[K[5;17H[?25l[29;72H^[[5;17H[29;72H  [5;18H[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72H~@ÿ[5;17H[29;72H   [5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @s[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72Hq[5;17H[29;1H[K[5;17H[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72Hq[5;17H[?25h[?25l[29;73Hq[5;17H[29;1H[1mrecording @q[m[29;72H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72Hq[5;17H[29;1H[K[5;17H[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72Hq[5;17H[?25h[?25l[29;73He[5;17H[29;1H[1mrecording @e[m[29;72H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;72Hx[5;17H[29;72H [5;17H[29;72Hdl[5;17H[29;72H  [5;17H[34m   - check is a randov[m[5;39H[K[5;17H[?25h[?25l[29;72Hx[5;17H[29;72H [5;17H[29;72Hdl[5;17H[29;72H  [5;17H[2C[34m- check is a randov[m[5;38H[K[5;17H[?25h[?25l[29;72Hx[5;17H[29;72H [5;17H[29;72Hdl[5;17H[29;72H  [5;17H[1C[34m- check is a randov[m[5;37H[K[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h[?25l[29;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[29;82H[K[29;1H[1mrecording @e[m[29;13H[K[29;82H5,17[10CAll[5;17H[?25h
