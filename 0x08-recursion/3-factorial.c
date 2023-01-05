@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * factoriel   - eheck is a randov
+ * factorial   - eheck is a randov
  * @n: given char
  *
  * Return: 0
