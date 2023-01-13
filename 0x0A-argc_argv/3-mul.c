@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	char *endPtr2;
 	int base = 10;
 
-	if (argc < 2)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
