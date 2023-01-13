@@ -10,7 +10,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *rs;
+	char *rs;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
@@ -18,5 +18,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	rs = malloc(size * nmemb);
 	if (rs == NULL)
 		return (NULL);
+	bzero(rs, nmemb * size);
 	return (rs);
 }
