@@ -11,6 +11,6 @@ void *malloc_checked(unsigned int b)
 {
 	char *space;
 
-	space = (char*)malloc(b);
+	space = (char *)malloc(b);
 	return (space);
 }
