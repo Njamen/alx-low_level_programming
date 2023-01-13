@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 		for (i = 1 ; i < argc ; i++)
 		{
 			nombre = strtol(argv[i], &endPtr, base);
-			if (endPtr == NULL)
+			if (*endPtr)
 			{
 				printf("Error\n");
 				return (0);
