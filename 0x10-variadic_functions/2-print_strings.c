@@ -5,13 +5,13 @@
 /* more headers goes there */
 
 /**
- * print_numbers - check is a randomly given number is positive or negative
+ * print_strings - check is a randomly given number is positive or negative
  * @separator: -
  * @n: -
  *
  * Return: 0
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list ptr;
@@ -24,8 +24,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(ptr, n);
 	for (i = 0 ; i < n - 1 ; i++)
 	{
-		printf("%d%s ", va_arg(ptr, int), separator);
+		printf("%s%s", va_arg(ptr, char *), separator);
 	}
-	printf("%d\n", va_arg(ptr, int));
+	printf("%s\n", va_arg(ptr, char *));
 	va_end(ptr);
 }
