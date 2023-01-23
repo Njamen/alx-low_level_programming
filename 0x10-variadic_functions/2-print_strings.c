@@ -25,14 +25,14 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		s = va_arg(ptr, char *);
 		if (s == NULL)
-			s = "";
+			s = "(nil)";
 		printf("%s", s);
 		if (separator != NULL)
 			printf("%s", separator);
 	}
 	s = va_arg(ptr, char *);
 	if (s == NULL)
-		s = "";
+		s = "(nil)";
 	printf("%s\n", s);
 	va_end(ptr);
 }
