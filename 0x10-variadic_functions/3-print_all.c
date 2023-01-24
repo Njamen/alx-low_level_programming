@@ -1,31 +1,48 @@
-#include <stdlib.h>
-#include <stdarg.h>
 #include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
 #include "variadic_functions.h"
-/* more headers goes there */
 
 /**
- * print_numbers - check is a randomly given number is positive or negative
- * @separator: -
- * @n: -
- *
- * Return: 0
+ * print_all - printf function
+ * @format: parameter 1
+ * Return: number
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_all(const char * const format, ...)
 {
-	unsigned int i;
-	va_list ptr;
+	va_list args;
+	int i = 0;
+	int b;
 
-	if (n == 0)
+	if (format == NULL)
 		return;
-	if (separator == NULL)
-		separator = "";
 
-	va_start(ptr, n);
-	for (i = 0 ; i < n - 1 ; i++)
+	va_start(args, format);
+	while (format[i] != '\0')
 	{
-		printf("%d%s ", va_arg(ptr, int), separator);
+			b = 0;
+			switch (format[i])
+			{
+				case 'c':
+					printf("%c", va_arg(args, int));
+					break;
+				case 's':
+					printf("%s", va_arg(args, char *));
+					break;
+				case 'i':
+					printf("%d", va_arg(args, int));
+					break;
+				case 'f':
+					printf("%f", va_arg(args, double));
+					break;
+				default:
+					b = 1;
+					break;
+			}
+			if (format[i + 1] != '\0' && b != 1)
+				printf(", ");
+			i++;
 	}
-	printf("%d\n", va_arg(ptr, int));
-	va_end(ptr);
+	va_end(args);
+	printf("\n");
 }
