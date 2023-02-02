@@ -9,7 +9,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int kms = 32768;
+	unsigned long kms = 0x8000000000000000;
 	int tm = 0;
 
 	if (n == 0)
