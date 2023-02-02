@@ -4,6 +4,7 @@
 /**
  * flip_bits - check is a randomly given number is positive or negativ
  * @n: given char
+ * @m: ddd
  *
  * Return: 0
  */
