@@ -13,6 +13,8 @@ int get_bit(unsigned long int n, unsigned int index)
 	unsigned long kms = 1;
 	unsigned int i = 0;
 
+	if (n == 0)
+		return (0);
 	for (i = 0 ; i < index ; i++)
 		kms = kms << 1;
 	if (kms > n)
