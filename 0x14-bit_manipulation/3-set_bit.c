@@ -15,6 +15,11 @@ int set_bit(unsigned long int *n, unsigned int index)
 
 	for (i = 0 ; i < index ; i++)
 		kms = kms << 1L;
+	if (*n == 0)
+	{
+		*n = kms;
+		return (1);
+	}
 	if (kms > *n)
 		return (-1);
 	*n = kms | *n;
