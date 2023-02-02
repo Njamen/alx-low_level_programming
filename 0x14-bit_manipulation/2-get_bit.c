@@ -18,12 +18,6 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (0);
 	}
-/*	while (kms > 0)
-	{
-		if ((kms & n) != 0)
-			break;
-		kms = kms >> 1;
-	} */
 	while (i != index)
 	{
 		if (kms >= n)
