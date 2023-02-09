@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		return (97);
 	}
-	file_to = open(argv[2], O_WRONLY | O_CREAT | O_EXCL);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_EXCL, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 	if (file_to < 0)
 	{
 		file_to = open(argv[2], O_WRONLY | O_TRUNC);
